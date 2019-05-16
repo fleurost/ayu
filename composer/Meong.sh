@@ -123,7 +123,7 @@ cat << EOF > ./byfn-network-org1.json
             }
         },
         "peer0.org2.hospital.com": {
-            "url": "grpcs://192.168.56.109:9051",
+            "url": "grpcs://192.168.56.110:9051",
             "grpcOptions": {
                 "ssl-target-name-override": "peer0.org2.hospital.com"
             },
@@ -132,7 +132,7 @@ cat << EOF > ./byfn-network-org1.json
             }
         },
         "peer1.org2.hospital.com": {
-            "url": "grpcs://192.168.56.109:10051",
+            "url": "grpcs://192.168.56.110:10051",
             "grpcOptions": {
                 "ssl-target-name-override": "peer1.org2.hospital.com"
             },
@@ -150,7 +150,7 @@ cat << EOF > ./byfn-network-org1.json
             }
         },
         "ca.org2.hospital.com": {
-            "url": "https://192.168.56.109:8054",
+            "url": "https://192.168.56.110:8054",
             "caName": "ca-org2",
             "httpOptions": {
                 "verify": false
@@ -261,7 +261,7 @@ cat << EOF > ./byfn-network-org2.json
             }
         },
         "peer0.org2.hospital.com": {
-            "url": "grpcs://192.168.56.109:9051",
+            "url": "grpcs://192.168.56.110:9051",
             "grpcOptions": {
                 "ssl-target-name-override": "peer0.org2.hospital.com"
             },
@@ -270,7 +270,7 @@ cat << EOF > ./byfn-network-org2.json
             }
         },
         "peer1.org2.hospital.com": {
-            "url": "grpcs://192.168.56.109:10051",
+            "url": "grpcs://192.168.56.110:10051",
             "grpcOptions": {
                 "ssl-target-name-override": "peer1.org2.hospital.com"
             },
@@ -288,7 +288,7 @@ cat << EOF > ./byfn-network-org2.json
             }
         },
         "ca.org2.hospital.com": {
-            "url": "https://192.168.56.109:8054",
+            "url": "https://192.168.56.110:8054",
             "caName": "ca-org2",
             "httpOptions": {
                 "verify": false
